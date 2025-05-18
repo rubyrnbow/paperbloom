@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PaperBloom – Recycled Paper Flower Pot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-green-50 text-gray-800 font-sans">
+   
+<!-- Hero Section with GIF -->
+<!-- Navbar with Cart -->
+<nav class="flex justify-between items-center px-6 py-4 bg-white shadow-md sticky top-0 z-50">
+  <div class="text-2xl font-bold text-green-800">PaperBloom</div>
+  <div class="relative">
+    <button id="cart-button" class="text-green-800 text-xl focus:outline-none">
+      🛒 Cart
+    </button>
+    <span id="cart-count" class="absolute -top-2 -right-3 bg-red-500 text-white text-xs rounded-full px-2">0</span>
+  </div>
+</nav>
+
+<section class="text-center p-12 bg-green-300 shadow-md">
+  <h1 class="text-5xl font-extrabold mb-4 text-green-900">PaperBloom 🌿</h1>
+  <p class="text-xl font-medium mb-6">Growing Green from Waste</p>
+  
+  <img src="potmove.gif" alt="Eco flower pot animation" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 w-64 mx-auto" />
+</section>
+
+
+    <!-- About Section -->
+    <section class="py-12 px-6 md:px-20">
+      <h2 class="text-3xl font-semibold mb-6">About the Product</h2>
+      <p class="text-gray-700 leading-relaxed">
+        PaperBloom is a product where we turn recycled paper into eco-friendly flower pots that are good for plants and the planet. Our pots are fully biodegradable—they naturally break down and help improve soil quality, making them a great alternative to plastic containers.
+
+What makes our product unique is its two-in-one function: it works as a plant pot and as a soil enhancer when planted directly into the ground. This supports eco-friendly gardening and reduces paper waste, helping to protect forests and cut down on landfill use.
+
+Our pots are affordable to produce, easy to scale, and support global efforts like the United Nations Sustainable Development Goals (SDG 12, 13, and 15). By choosing our product, you're not just planting a seed—you’re growing a greener future.
+      </p>
+    </section>
+
+ <!-- Benefits -->
+    <section class="py-12 px-6 md:px-20">
+      <h2 class="text-3xl font-semibold mb-6">Why Choose PaperBloom?</h2>
+      <ul class="list-disc ml-6 space-y-2 text-gray-700 leading-relaxed">
+        <li>100% biodegradable and compostable</li>
+        <li>Reduces landfill paper waste</li>
+        <li>No plastic. No guilt.</li>
+        <li>Enriches soil as it breaks down</li>
+        <li>Supports UN SDGs 12, 13 & 15</li>
+      </ul>
+    </section>
+
+<div class="text-center mt-8">
+  <a href="importance.html" class="inline-block bg-green-600 text-white px-5 py-3 rounded-lg shadow hover:bg-green-700 transition">
+    Why It Matters – Learn More
+  </a>
+</div>
+
+
+   <section class="relative bg-gradient-to-b from-green-100 to-pink-200 shadow-lg rounded-xl p-8 animate-fadeInUp duration-1000">
+  <h2 class="text-3xl font-extrabold mb-4 text-green-900">How It Works</h2>
+  <ol class="list-decimal ml-6 space-y-3 text-lg text-gray-800">
+    <li class="hover:scale-105 hover:text-green-600 transition-all duration-300">Collect used paper waste</li>
+    <li class="hover:scale-105 hover:text-green-600 transition-all duration-300">Shred and mix with eco-friendly binder</li>
+    <li class="hover:scale-105 hover:text-green-600 transition-all duration-300">Mold and dry into pot shape</li>
+    <li class="hover:scale-105 hover:text-green-600 transition-all duration-300">Plant and let nature take over!</li>
+  </ol>
+
+<a href="howitworks.html">How it Works</a>
+
+  <img src="how.png" alt="how" class="absolute top-4 right-4 center-4 w-20 animate-spin-slow" />
+</section>
+
+
+    
+    <!-- Gallery -->
+    <section class="py-12 px-6 md:px-20 bg-green-100">
+      <h2 class="text-3xl font-semibold mb-6">Gallery</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <img src="potjemur.jpg" alt="Pot 1" class="rounded-lg shadow-md" />
+        <img src="dry.jpeg" alt="Pot 2" class="rounded-lg shadow-md bg-white" />
+        <img src="bunga.jpeg" alt="Making process" class="rounded-lg shadow-md bg-white" />
+        <img src="rubbing.jpeg" alt="Planted Pot" class="rounded-lg shadow-md bg-white" />
+      </div>
+    </section>
+
+<!-- Buy Product Section -->
+<section class="py-12 px-6 md:px-20">
+  <h2 class="text-3xl font-semibold mb-6">Buy Our Product</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- Product Card Example -->
+    <div class="bg-white rounded-lg shadow-md p-4 text-center">
+      <img src="potsiap1.png" alt="PaperBloom Pot" class="rounded-lg mb-4 mx-auto w-48 object-cover" />
+      <h3 class="text-xl font-bold mb-2">PaperBloom Pot</h3>
+      <p class="text-green-700 font-semibold mb-2">RM 12.00</p>
+      <button onclick="addToCart('PaperBloom Pot', 12.00)" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+        Add to Cart
+      </button>
+    </div>
+
+    <!-- Repeat this block for more products -->
+  </div>
+</section>
+
+
+    <!-- Business Model Canvas -->
+<section class="py-12 px-6 md:px-20">
+  <h2 class="text-3xl font-semibold mb-6">Business Model Canvas</h2>
+  <p class="mb-4">View our BMC directly here or download it for reference.</p>
+
+  <!-- Embedded PDF Viewer -->
+  <div class="w-full h-96 mb-6">
+    <iframe src="bmc.pdf" class="w-full h-full border-2 border-green-300 rounded-lg shadow-md" title="Business Model Canvas PDF"></iframe>
+  </div>
+
+  <!-- Download Link -->
+  <a href="bmc.pdf" download class="inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+    Download BMC PDF
+  </a>
+</section>
+
+    <!-- Contact Section -->
+    <section class="py-12 px-6 bg-green-200 text-center">
+      <h2 class="text-3xl font-semibold mb-6">Let’s Connect</h2>
+      <p class="mb-2">
+        Follow us on Instagram:
+        <a href="#" class="text-green-900 font-medium underline">@ecopot.team</a>
+      </p>
+      <p>
+        Email us at:
+        <a href="mailto:ecopot@gmail.com" class="text-green-900 font-medium underline">ecopot@gmail.com</a>
+      </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 text-center text-sm text-gray-600">
+      &copy; 2025 EcoPot Team. All rights reserved.
+    </footer>
+
+<!-- Cart Modal -->
+<div id="cart-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+  <div class="bg-white p-6 rounded-lg shadow-lg w-80">
+    <h3 class="text-xl font-bold mb-4">Your Cart</h3>
+    <ul id="cart-items" class="space-y-2 text-left">
+      <!-- Cart items will be injected here -->
+    </ul>
+    <p class="mt-4 font-semibold">Total: RM <span id="cart-total">0.00</span></p>
+    <button onclick="checkout()" class="mt-4 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Checkout</button>
+    <button onclick="closeCart()" class="mt-2 text-sm text-gray-500 underline">Close</button>
+  </div>
+</div>
+
+<script>
+  let cart = [];
+  
+  function addToCart(name, price) {
+    const existing = cart.find(item => item.name === name);
+    if (existing) {
+      existing.quantity += 1;
+    } else {
+      cart.push({ name, price, quantity: 1 });
+    }
+    updateCartCount();
+    alert(`${name} added to cart!`);
+  }
+
+  function updateCartCount() {
+    document.getElementById('cart-count').textContent = cart.reduce((sum, item) => sum + item.quantity, 0);
+  }
+
+  function openCart() {
+    const cartItems = document.getElementById('cart-items');
+    cartItems.innerHTML = cart.map(item => `<li>${item.name} x${item.quantity} - RM ${(item.price * item.quantity).toFixed(2)}</li>`).join('');
+    document.getElementById('cart-total').textContent = cart.reduce((sum, item) => sum + item.price * item.quantity, 0).toFixed(2);
+    document.getElementById('cart-modal').classList.remove('hidden');
+  }
+
+  function closeCart() {
+    document.getElementById('cart-modal').classList.add('hidden');
+  }
+
+  function checkout() {
+    if (cart.length === 0) {
+      alert('Your cart is empty!');
+    } else {
+      alert('Thank you for your purchase!');
+      cart = [];
+      updateCartCount();
+      closeCart();
+    }
+  }
+
+  document.getElementById('cart-button').addEventListener('click', openCart);
+</script>
+
+
+  </body>
+</html>
